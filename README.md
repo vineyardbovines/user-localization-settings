@@ -71,10 +71,10 @@ Settings are automatically persisted to [AsyncStorage](https://github.com/react-
 
 The context provider that handles user settings.
 
-| Parameter           | Type      | Description                                                                                                                                          | Default |
-| ------------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
-| i18n                | `string`  | An i18n locale code to pass (if using react-i18next, etc.) Used to look up different formats based on locale.                                        | `null`  |
-| `shouldUseLocation` | `boolean` | Whether or not to use the user's location to get hyper-local localization defaults. This will prompt the user for permission if not already granted. | `false` |
+| Parameter         | Type      | Description                                                                                                                                          | Default |
+| ----------------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------- |
+| i18n              | `string`  | An i18n locale code to pass (if using react-i18next, etc.) Used to look up different formats based on locale.                                        | `null`  |
+| shouldUseLocation | `boolean` | Whether or not to use the user's location to get hyper-local localization defaults. This will prompt the user for permission if not already granted. | `false` |
 
 ### `useLocalizationSettings()`
 
