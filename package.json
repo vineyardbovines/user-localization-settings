@@ -31,7 +31,11 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "localization",
+    "l10n",
+    "settings",
+    "location"
   ],
   "repository": "https://github.com/gretzky/user-localization-settings/user-localization-settings",
   "author": "Sara Pope <sara@thepope.dev>",
