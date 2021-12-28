@@ -1,8 +1,8 @@
-export declare type TimeFormat = "12hr" | "24hr" | "mixed";
-export declare type WeekStartDay = "friday" | "saturday" | "sunday" | "monday";
-export declare type MeasurementSystem = "metric" | "imperial";
-export declare type DistanceUnit = "kilometer" | "mile";
-export declare type TemperatureUnit = "celsius" | "fahrenheit";
+export declare type TimeFormat = '12hr' | '24hr' | 'mixed';
+export declare type WeekStartDay = 'friday' | 'saturday' | 'sunday' | 'monday';
+export declare type MeasurementSystem = 'metric' | 'imperial';
+export declare type DistanceUnit = 'kilometer' | 'mile';
+export declare type TemperatureUnit = 'celsius' | 'fahrenheit';
 export declare type Country = {
     cca2: string;
     hourClock: TimeFormat;
@@ -16,7 +16,7 @@ export declare type Country = {
     distanceUnit: DistanceUnit;
     temperatureUnit: TemperatureUnit;
 };
-export declare type UserLocalizationSettings = {
+export declare type LocalizationSettings = {
     coordinates: {
         latitude: number;
         longitude: number;
